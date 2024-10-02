@@ -3,14 +3,16 @@ import Sidebar from "./components/Sidebar"
 import NavBarSimple from "./components/NavBarSimple"
 import NavBarForm from './components/NavBarForm';
 import RenderingLists from './components/RenderingLists';
+import Content from './components/Content';
 
 function App() {
   return (
     <div className={css.App}>
-      {/* < Sidebar /> */}
+      < Sidebar />
       {/* < NavBarSimple /> */}
-      {/* <NavBarForm /> */}
-      <RenderingLists />
+      <NavBarForm />
+      <Content />
+      {/* <RenderingLists /> */}
     </div>
   );
 }
