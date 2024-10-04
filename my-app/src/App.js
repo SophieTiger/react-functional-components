@@ -8,6 +8,7 @@ import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
 import Loader from './components/Loader';
+import ControlledForm from './components/ControlledForm';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
       {/* <Loader /> */}
+      <ControlledForm />
     </div>
   );
 }
