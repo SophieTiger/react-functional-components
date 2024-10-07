@@ -18,7 +18,7 @@ function App() {
       < Sidebar />
       {/* < NavBarSimple /> */}
       <NavBarForm />
-      {/* <Content /> */}
+      <Content />
       {/* <RenderingLists /> */}
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
@@ -26,7 +26,7 @@ function App() {
       {/* <Loader /> */}
       {/* <ControlledForm /> */}
       {/* <UnControlledForm /> */}
-      <SearchBar />
+      {/* <SearchBar /> */}
     </div>
   );
 }
