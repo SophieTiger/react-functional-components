@@ -11,6 +11,7 @@ import Loader from './components/Loader';
 import ControlledForm from './components/ControlledForm';
 import UnControlledForm from './components/UnControlledForm'
 import SearchBar from './components/SearchBar';
+import ControlledFormHooks from './components/ControlledFormHooks';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       < Sidebar />
       {/* < NavBarSimple /> */}
       <NavBarForm />
-      <Content />
+      {/* <Content /> */}
       {/* <RenderingLists /> */}
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
@@ -27,6 +28,7 @@ function App() {
       {/* <ControlledForm /> */}
       {/* <UnControlledForm /> */}
       {/* <SearchBar /> */}
+      <ControlledFormHooks />
     </div>
   );
 }

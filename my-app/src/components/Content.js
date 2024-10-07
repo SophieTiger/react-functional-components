@@ -21,10 +21,10 @@ export class Content extends Component {
     }
 
     handleChange = (event) => {
-        const name = event.target.value
+        const name = event.target.value.toLowerCase();
         console.log(name)
         const filteredPosts = savedPosts.filter(post => {
-            return post.name.toLowerCase().includes(name)
+            return post.name.toLowerCase().includes(name);
         })
         this.setState({
             posts: filteredPosts
