@@ -12,11 +12,14 @@ import ControlledForm from './components/ControlledForm';
 import UnControlledForm from './components/UnControlledForm'
 import SearchBar from './components/SearchBar';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounter from './components/UseEffectCounter';
 
 function App() {
   return (
     <div className={css.App}>
-      < Sidebar />
+      {/* < Sidebar /> */}
       {/* < NavBarSimple /> */}
       <NavBarForm />
       {/* <Content /> */}
@@ -28,7 +31,10 @@ function App() {
       {/* <ControlledForm /> */}
       {/* <UnControlledForm /> */}
       {/* <SearchBar /> */}
-      <ControlledFormHooks />
+      {/* <ControlledFormHooks /> */}
+      {/* <UseStateWithArrays /> */}
+      {/* <UseStateWithObjects /> */}
+      <UseEffectCounter />
     </div>
   );
 }
