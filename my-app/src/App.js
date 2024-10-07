@@ -9,6 +9,8 @@ import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
 import Loader from './components/Loader';
 import ControlledForm from './components/ControlledForm';
+import UnControlledForm from './components/UnControlledForm'
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
@@ -16,13 +18,15 @@ function App() {
       < Sidebar />
       {/* < NavBarSimple /> */}
       <NavBarForm />
-      <Content />
+      {/* <Content /> */}
       {/* <RenderingLists /> */}
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
       {/* <Loader /> */}
-      <ControlledForm />
+      {/* <ControlledForm /> */}
+      {/* <UnControlledForm /> */}
+      <SearchBar />
     </div>
   );
 }
