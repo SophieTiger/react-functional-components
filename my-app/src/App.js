@@ -21,6 +21,7 @@ import HTTPRequests from './components/HTTPRequests';
 import HTTPPost from './components/HTTPPost';
 import HTTPHooks from './components/HTTPHooks';
 import ContentAPI from './components/ContentAPI'
+import ContentAPIHooks from './components/ContentAPIHooks';
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
       {/* <HTTPRequests /> */}
       {/* <HTTPPost /> */}
       {/* <HTTPHooks /> */}
-      <ContentAPI />
+      {/* <ContentAPI /> */}
+      <ContentAPIHooks />
     </div>
   );
 }
